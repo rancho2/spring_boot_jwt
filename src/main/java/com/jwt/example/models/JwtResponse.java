@@ -7,12 +7,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
+/*@Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@ToString
+@ToString*/
 public class JwtResponse {
 	private String jwtToken;
 	private String username;
